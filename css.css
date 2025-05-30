@@ -1,0 +1,59 @@
+th {
+    border:1px solid black;
+}
+td{
+    border:1px solid pink;
+}
+
+div{
+    background-color: burlywood;
+}
+
+/*#pai{
+    background-color: aliceblue;
+    padding: 30px;
+    margin: 20px;
+}*/
+
+.filho{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    pad: 5px;
+    background-color: brown;
+}
+
+#pai > .filho{  /*seleciona os que estão na mesma rais de pai*/
+    background-color: blue;
+    width: 10px;
+    height: 5px;
+}
+
+#pai .filho{  /*seleciona todos na raiz do pai, até os indiretos*/
+    padding: 10px;
+    margin: 20px;
+}
+
+#pai div:nth-child(2){ /*usamos -even- para intercarlar a partir do segundo  odd a partir do primeiro*/
+    background-color: black;
+}
+
+#pai div:last-child{
+    background-color: aquamarine;
+}
+
+#pai div:last-of-type{
+    /*estiliza o último elemento div de pai*/
+}
+
+#pai div:first-of-type{
+    /*estilisa o primeiro elemento div de pai*/
+}
+
+image{
+    
+}
+
+footer{
+    
+}

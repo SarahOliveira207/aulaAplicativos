@@ -1,0 +1,21 @@
+/*sempre que começar um css resetar o site*/
+
+* { /** aplica o estilo em todo o site*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*hora que for calcular o espaçamento do elemento nao inclui o espaço do padding*/
+}
+
+/*Estilos comuns a ambos os layouts*/
+
+#container{
+    min-height: 100vh; 
+}
+
+header, main, aside, footer{
+    background-color: cornflowerblue;
+}
+
+h2{
+    text-align: center;
+}

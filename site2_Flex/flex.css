@@ -1,0 +1,28 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 1px;
+}
+
+header, footer{
+    width: 100%;
+}
+
+aside, main{
+    min-height: 60%;
+}
+
+aside{
+    width: 20%;
+}
+
+main{
+    width: 59%;
+}
+
+#colorMain{
+    background-color: antiquewhite;
+}

@@ -1,13 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<style>
-    th {
-        border:1px solid black;
-    }
-    td{
-        border:1px solid pink;
-    }
-</style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,12 +8,22 @@
     <link rel="stylesheet" href="formulario.html">
 </head>
 <body>
+    <!--
+    <div id="pai">
+        <div class="filho"></div>
+        <div class="filho"></div>
+        <div class="filho">
+            <div class="filho2"></div>
+        </div>
+        <div class="filho"></div>
+        <div class="filho"></div>
+    </div>
     <h1>Conteúdo da primeira aula de HTML - Hiper Text Mark Lenguage</h1>
     <h2>PROGRAMAÇÃO</h2>
     <p>HTML é uma linguagem que cria e estrutura uma página Web.
         <br>Um navegador Web tem a função de ler arquivos em HTML e apresentar seu conteúdo ao usuário</p>
-    <figure> <!--Tag usada para informar a entrada de imagem-->
-        <img src="imagemHtml.jfif" alt="HTML" title="Web">
+    <figure> <!--Tag usada para informar a entrada de imagem
+        <img src="image/imagemHtml.jfif" alt="HTML" title="Web">
         <figure>HTML image</figure>
     </figure>    
         
@@ -35,7 +37,7 @@
         <li>No GitHub, copie a url do repositório e clone para seu repositório local com o comando <i>git clone [url]</i></li>
         <li>Pronto, você clonou um reposiório remoto para seu repositório local &#128508;</li>
     </ul>
-    <img src="gthub.jfif" width="100" height="50"/>
+    <img src="image/gthub.jfif" width="100" height="50"/>
     <table>
         <tr>
             <th>Linguagem</th>
@@ -55,14 +57,14 @@
     </table>
     <br>
     <hr>
-    <table> <!--Define início da tabela-->
-        <thead> <!--define o cabeçalho da tabela-->
-            <tr> <!--Define o título da coluna-->
+    <table> <!--Define início da tabela
+        <thead> <!--define o cabeçalho da tabela
+            <tr> <!--Define o título da coluna
                 <th>ID</th>
                 <th>NOME</th>
                 <th>EMAIL</th>
             </tr>
-            <tbody> <!--Define o corpo da tabela-->
+            <tbody> <!--Define o corpo da tabela
                 <tr>
                     <td>1</td>
                     <td>Roberta</td>
@@ -82,7 +84,42 @@
         </thead>
     </table>
     <hr>
+    -->
+    <h2>Layouts</h2>
+    <p>É a forma de organização de algo - sala, site, setor. É a forma de disponibilização dos itens em um site.</p>
+    <figure>
+        <img src="image/exemplo_layout1.gif" alt="Layout">
+        <figure>Exemplo de Layout</figure>
+    </figure>
+    <ul>
+        <li><strong>Hierarquia Visual: </strong> Ordem que os elementos são mostrados</li>
+        <li><strong>Contraste: </strong>Enfatiza elementos importantes</li>
+        <li><strong>Espaçamento: </strong>Legibilidade e clareza do design</li>
+        <li><strong>Repetição e Consistência: </strong> uso padrão de cores, fontes, estilos par coesão do site</li>
+        <li><strong>Fluxo e direção: </strong>Usar linhas, formatos e hierarquisas para guiar o olhar do usuário</li>
+    </ul>
+    <p><strong>UX/UI (User experiene/User interface) - </strong>cuida das funcionalidades, adaptabilidade e da experiência sensorial do usuário </p>
 
+    <h3>Tipos de Layout</h3>
+    <ul>
+        <li>Layout Fixo: larguras fixas e não adaptáveis</li>
+        <li>Layout Fluído: unidades relativas, conforme o tabanho da tela, usado em porcentagem</li>
+        <li>Layout Responsivo: muda os tamanhos de acordo com a tela - media queries</li>
+        <li>Layout Adaptativo: varios tamnhos fixos para diferentes resoluções, carregando diferentes versões para cada dispositivo</li>
+        <li>Layout de Grade: sistema de colunas e linhas CSS Grid</li>
+        <li>Layout de Página Única: navegação em uma página</li>
+        <li>Layout em Camadas: </li>
+    </ul>
+
+    <p>Para construir Layouts usamos a propriedade <i>Display</i></p>
+    <figure>
+        <img src="image/elementosCSS.png" alt="elementosCSS">
+        <figure>Nomenclaturas de elementos CSS</figure>
+    </figure>
+
+    <p><mark>É importante usarmos medidas relativas na construção do site - em porcentagem - para que ele se dapite aos tamanhos de tela</mark></p>
+    <p><mark>Sempre dividir o código em partes, até o CSS</mark></p>
+    <footer>Fim do site</footer>
 
 
 </body>
